@@ -16,7 +16,7 @@ const ProductDetails = () => {
         <p>{product.description}</p>
 
         <Link className="link" to="/">
-          <button>Other products</button>
+          <button className="btn">Other products</button>
         </Link>
       </div>
     </div>
