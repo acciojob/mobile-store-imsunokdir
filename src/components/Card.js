@@ -14,11 +14,11 @@ const Card = ({ title, price, image, id }) => {
 
           {userType == "admin" ? (
             <Link to={`/admin/products/${id}`} className="link">
-              <button>Edit</button>
+              <button className=".btn">Edit</button>
             </Link>
           ) : (
             <Link to={`/products/${id}`} className="link">
-              <button>Buy</button>
+              <button className=".btn">Buy</button>
             </Link>
           )}
         </div>
