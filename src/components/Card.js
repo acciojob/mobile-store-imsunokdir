@@ -13,11 +13,11 @@ const Card = ({ title, price, image, id }) => {
           <p>$ {price}</p>
 
           {userType == "admin" ? (
-            <Link to={`/admin/products/${id}`} className="link btn">
+            <Link to={`/admin/products/${id}`} className="link ">
               <button>Edit</button>
             </Link>
           ) : (
-            <Link to={`/products/${id}`} className="link btn">
+            <Link to={`/products/${id}`} className="link ">
               <button>Buy</button>
             </Link>
           )}
