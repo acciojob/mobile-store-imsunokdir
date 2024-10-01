@@ -11,10 +11,10 @@ const Navbar = () => {
     <div className="nav-main">
       <div className="nav-bar">
         <div className="navItems">
-          <Link to="/" className="nav-link">
+          <Link to="/" className="nav-link .btn">
             Home
           </Link>
-          <Link to="/admin" className="nav-link">
+          <Link to="/admin" className="nav-link .btn">
             Admin
           </Link>
           {/* <button onClick={handleClick}>change User</button>
