@@ -83,7 +83,7 @@ const AdminProduct = () => {
           value={formData.price}
         />
 
-        <div className="admin-btns">
+        <div className="admin-buttons">
           <button onClick={handleDelete}>Delete</button>
           <button type="submit">Save</button>
         </div>
